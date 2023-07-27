@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto+Mono:wght@500&display=swap');
+body{
+    background: #b8dfff !important;
+}
+.form-control {
+    width: 70% !important;
+    margin: auto;
+}
+.form-label {
+    margin-left: 15rem ;
+}
+.form-control-lg {
+    height: 5rem;
+}
+.button{
+    margin-left: 15rem;
+}
+.C-title{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin: 18px;
+}
+.mg{
+    margin: 20px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bm{
+    margin-bottom: 30px
+}
+
+.delete-btn{
+    background-color: rgb(255, 65, 65);
+    border: 0px;
+    height: 28px;
+    width: 100px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 60%;
+    margin-bottom: 3%;
+}
+.delete-btn p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 825px) {
+    .form-label{
+        margin-left: 8rem;
+      }
+}
+@media screen and (max-width: 420px) {
+  .form-label{
+    margin-left: 6rem;
+  }
+}
